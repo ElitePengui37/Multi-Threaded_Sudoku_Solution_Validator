@@ -1,0 +1,17 @@
+README
+
+Author: Daniil Sergeev
+Student ID: 21936856
+File Creation date: 27/04/2024
+
+
+Project Name: MSSV (Multithreaded Sudoku Solution Validator)
+
+Description: This project takes a completed sudoku puzzle and checks if its solution is valid whilst utilizing multithreading using 4 child threads
+
+How To Compile: Simply enter the directory this file is in in the terminal and type in make (let the file compile everything for you), to decompile type in make clean
+
+How To Run: Type this in the director this program is in after this has been compiled --> ./mssv <Solution file name> <Delay>
+	<Solution file name> is the name of the solution file being Solution.txt, Solution2.txt, Solution3.txt, Solution4.txt are the provided files.
+	<Delay> is the time in seconds of how long the program sleeps after completing critical sections with the input taking an int between 1-10
+	
