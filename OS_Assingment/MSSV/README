@@ -15,3 +15,4 @@ How To Run: Type this in the director this program is in after this has been com
 	<Solution file name> is the name of the solution file being Solution.txt, Solution2.txt, Solution3.txt, Solution4.txt are the provided files.
 	<Delay> is the time in seconds of how long the program sleeps after completing critical sections with the input taking an int between 1-10
 	
+It is not recommended to run this application in Windows as makefile is wont work with the gcc compiler as well as pthreads being a non Windows threading library
